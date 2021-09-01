@@ -18,16 +18,40 @@ class _CategoriesState extends State<Categories> {
         children: [
           Container(child: Card(child: Column(children: [
            Expanded(child: Image.asset("images/LaptopsTablets.png",fit: BoxFit.cover,)),
+           //Container(child:Text("Laptops and Tablets",style: TextStyle(fontSize: 13,fontWeight: FontWeight.w900),)),
           ],
           ),
           ),
           ),
            Container(child: Card(child: Column(children: [
-           Expanded(child: Image.asset("images/LaptopsTablets.png",fit: BoxFit.cover,)),
+           Expanded(child: Image.asset("images/ComputerSuppliesARWeb.png",fit: BoxFit.cover,)),
+           //Container(child:Text("Laptops and Tablets",style: TextStyle(fontSize: 13,fontWeight: FontWeight.w900),)),
           ],
           ),
           ),
           ),
+             Container(child: Card(child: Column(children: [
+           Expanded(child: Image.asset("images/Smartphones.png",fit: BoxFit.cover,)),
+           //Container(child:Text("Laptops and Tablets",style: TextStyle(fontSize: 13,fontWeight: FontWeight.w900),)),
+          ],
+          ),
+          ),
+          ),
+             Container(child: Card(child: Column(children: [
+           Expanded(child: Image.asset("images/SmartphoneAccessories.png",fit: BoxFit.cover,)),
+           //Container(child:Text("Laptops and Tablets",style: TextStyle(fontSize: 13,fontWeight: FontWeight.w900),)),
+          ],
+          ),
+          ),
+          ),
+             Container(child: Card(child: Column(children: [
+           Expanded(child: Image.asset("images/Smartwatches.png",fit: BoxFit.cover,)),
+           //Container(child:Text("Laptops and Tablets",style: TextStyle(fontSize: 13,fontWeight: FontWeight.w900),)),
+          ],
+          ),
+          ),
+          ),
+          
           //
         ],
         ),
