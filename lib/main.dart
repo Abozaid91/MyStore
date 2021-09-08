@@ -7,6 +7,11 @@ import 'package:flutter_application_1/pages/home.dart';
 import 'pages/home.dart';
 import 'pages/categories.dart';
 import 'pages/LaptopsTablets.dart';
+import 'pages/ComputerSuppliesARWeb.dart';
+import 'pages/Smartphones.dart';
+import 'pages/SmartphoneAccessories.dart';
+import 'pages/Smartwatches.dart';
+import 'pages/VideoGames.dart';
 
 void main() => runApp(Mystore());
 
@@ -28,6 +33,21 @@ class Mystore extends StatelessWidget {
           },
           "LaptopsTablets": (context) {
             return LaptopsTablets();
+          },
+          "ComputerSuppliesARWeb": (context) {
+            return ComputerSuppliesARWeb();
+          },
+          "Smartphones": (context) {
+            return Smartphones();
+          },
+          "SmartphoneAccessories": (context) {
+            return SmartphoneAccessories();
+          },
+          "Smartwatches": (context) {
+            return Smartwatches();
+          },
+          "VideoGames": (context) {
+            return VideoGames();
           }
         });
   }

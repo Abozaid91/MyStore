@@ -52,7 +52,9 @@ class _CategoriesState extends State<Categories> {
                     ],
                   ),
                 ),
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).pushNamed("ComputerSuppliesARWeb");
+                },
               ),
 
               InkWell(
@@ -68,7 +70,9 @@ class _CategoriesState extends State<Categories> {
                     ],
                   ),
                 ),
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).pushNamed("Smartphones");
+                },
               ),
               InkWell(
                 child: Card(
@@ -83,7 +87,9 @@ class _CategoriesState extends State<Categories> {
                     ],
                   ),
                 ),
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).pushNamed("SmartphoneAccessories");
+                },
               ),
               InkWell(
                 child: Card(
@@ -98,7 +104,9 @@ class _CategoriesState extends State<Categories> {
                     ],
                   ),
                 ),
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).pushNamed("Smartwatches");
+                },
               ),
               InkWell(
                 child: Card(
@@ -113,7 +121,9 @@ class _CategoriesState extends State<Categories> {
                     ],
                   ),
                 ),
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).pushNamed("VideoGames");
+                },
               ),
               //
             ],
