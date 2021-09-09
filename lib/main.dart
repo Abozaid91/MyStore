@@ -23,6 +23,7 @@ class Mystore extends StatelessWidget {
         // Start .
         debugShowCheckedModeBanner: false,
         title: "MyStore",
+        theme: ThemeData(fontFamily: "Roboto"),
         home: Home(),
         routes: {
           'categories': (context) {
